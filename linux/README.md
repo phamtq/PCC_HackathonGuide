@@ -18,6 +18,8 @@ Feel free to skip around the guide if you and your team are already familar with
 		+ Looking around
 		+ Copying & moving files
 		+ Deleting files
+		+ Superuser access
+		+ Rebooting
 * Editing code
 	- Using `nano`
 	- Using `vim`
@@ -33,10 +35,18 @@ One of these programs is the file manager seen below:
 
 ![Screenshot of the file manager](images/screenshot_filemanager.png)
 
+The file manager program for Linux is very similar to the File Manager in Windows or the Finder in macOS. You can organize your files using this program. 
+
 Another program is ...
 
 ### Command Line
 
-In some situations, such as running the code that controls your robot, you'll need access to the command line. 
+In some situations, such as running the code that controls your robot, you'll need access to the command line. It's best to think of the command line as typing out what you want the computer to do as opposed to clicking and/or dragging things like you would normally do. 
+
+For example, if you wanted to move one folder (also called a directory) to another one, you might click and drag it into its destination. Using the command line, you could accomplish the same thing by typing:
+
+> mv folder_you_want_to_move folder_you_want_to_move_it_to
+
+So what are the benefits of using using the command line versus using the GUI? In come cases, it's much faster. While the previous example may look like there's a lot to type, it can be sped up by using the `TAB` key on your keyboard. 
 
 
