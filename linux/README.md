@@ -1,19 +1,21 @@
-![Source: https://www.softzone.es/app/uploads-softzone.es/2020/01/Raspbian.jpg](images/raspbian.jpg)
+
+
+![Source: https://jasoneckert.github.io/myblog/linux-fun-facts/](images/linux-banner.png)
 
 # Foundational Linux Skills
 
-Much of the software you'll be using will be running on Linux so it's important to learn how to it. If you've never used Linux before, that's not a problem! A lot of what you'll encounter will feel familiar if you've used Windows or macOS before. 
+Much of the software you'll be using will be running on Linux so it's important to learn how to use it. If you've never used Linux before, that's not a problem! A lot of what you'll encounter will feel familiar if you've used Windows or macOS before. 
 
 There's often this misconception that you need to know how to code in order to use Linux. While it's handy to know in certain situations, it's not required and many things can be accomplish through the graphical user interface ([GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)).
 
-As an added bonus, if you'll looking to transfer to Portland State University and/or taking CS161B, this guide will help you reinforce the information you may have learned in class and prepare you for using Linux at PSU. 
+As an added bonus, if you'll looking to transfer to Portland State University and/or taking CS161B onward at PCC, this guide will help you reinforce the information you may have learned in class and prepare you for using Linux at PSU. 
 
 Feel free to skip around the guide if you and your team are already familar with some of the operations below.
 
 # Table of Contents
 
-* Navigating Around
-	- GUI
+* [Navigating Around](##Navigating Around)
+	- [GUI](###GUI)
 	- Command Line
 		+ Looking around
 		+ Copying & moving files
@@ -29,15 +31,17 @@ Feel free to skip around the guide if you and your team are already familar with
 
 ### GUI
 
-Like many of the operating systems you may have used before, many programs can be accessed by clicking on the ... button in the top left corner of the screen, similar to the Start button on many versions of Windows. 
+![Freshly booted Linux GUI Desktop](images/blank.desktop_screenshot.png)
+
+Like many of the operating systems you may have used before, many programs can be accessed by clicking on the Raspberry Pi button in the top left corner of the screen, similar to the Start button on many versions of Windows. 
 
 One of these programs is the file manager seen below:
 
-![Screenshot of the file manager](images/screenshot_filemanager.png)
+![Screenshot of the file manager](images/file.manager_screenshot.png)
 
 The file manager program for Linux is very similar to the File Manager in Windows or the Finder in macOS. You can organize your files using this program. 
 
-Another program is ...
+Create folders, copy files, move folders, etc... like you normally would. Staying organized if you have more than a few team members can help make the process of creating something much more pleasant. Especially if you're working on a lot of files together. 
 
 ### Command Line
 
