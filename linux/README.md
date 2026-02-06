@@ -14,7 +14,7 @@ Feel free to skip around the guide if you and your team are already familar with
 
 # Table of Contents
 
-* [Navigating Around](##Navigating Around)
+* [Navigating Around](##Navigating-Around)
 	- [GUI](###GUI)
 	- Command Line
 		+ Looking around
