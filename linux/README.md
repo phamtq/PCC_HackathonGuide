@@ -14,8 +14,8 @@ Feel free to skip around the guide if you and your team are already familar with
 
 # Table of Contents
 
-* [Navigating Around](##Navigating-Around)
-	- [GUI](###GUI)
+* [Navigating Around](README.md#navigating-around)
+	- [GUI](README.md#gui)
 	- Command Line
 		+ Looking around
 		+ Copying & moving files
@@ -39,7 +39,7 @@ One of these programs is the file manager seen below:
 
 ![Screenshot of the file manager](images/file.manager_screenshot.png)
 
-The file manager program for Linux is very similar to the File Manager in Windows or the Finder in macOS. You can organize your files using this program. 
+The file manager program for Linux is very similar to the File Manager in Windows or the Finder in macOS. You can organize your files using this program. It can be launched by clicking on the overlapping files folder icon located in the top left corner of the screen (3 spots to the right of the Raspberry Pi logo). 
 
 Create folders, copy files, move folders, etc... like you normally would. Staying organized if you have more than a few team members can help make the process of creating something much more pleasant. Especially if you're working on a lot of files together. 
 
