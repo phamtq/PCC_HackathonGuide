@@ -17,16 +17,16 @@ Feel free to skip around the guide if you and your team are already familar with
 * [Navigating Around](README.md#navigating-around)
 	- [GUI](README.md#gui)
 	- [Command Line](README.md#command-line)
-		+ Looking around
-		+ Copying & moving files
-		+ Deleting files
-		+ Wildcards
-		+ Other commands
-		+ Superuser access
-		+ Rebooting
+		+ [Looking around](README.md#looking-around)
+		+ [Copying & moving files](README.md#copying--moving-files)
+		+ [Deleting files](README.md#deleting-files)
+		+ [Wildcards](README.md#wildcards)
+		+ [Other commands](README.md#other-commands)
+		+ [Superuser access](README.md#superuser-access)
+		+ [Rebooting](README.md#rebooting)
 * Editing code
 	- Using `nano`
-	- Using `vim`
+	- Using `vi`
 * Running code
 
 ## Navigating Around
