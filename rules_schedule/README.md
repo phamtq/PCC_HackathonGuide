@@ -39,9 +39,9 @@ Everyone participating is expected to follow the rules. If you are unable to, yo
 
 ### Itinerary
 + *8:30am* - Doors open, setup and prep
-+ *9:00 - 9:15* - Welcome, housekeeping
-+ *9:15 - 9:30* - Robot showcase
-+ *9:30 - 9:45* - Rules, make teams, choose robot
++ *9:00 - 9:15am* - Welcome, housekeeping
++ *9:15 - 9:30am* - Robot showcase
++ *9:30 - 9:45am* - Rules, make teams, choose robot
 + *9:45am - 9:00pm* - Work time
 + *~7:00 - 8:00pm* - Pizza served
 + *8:30pm* - Submissions close
