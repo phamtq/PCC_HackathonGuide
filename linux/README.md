@@ -140,7 +140,7 @@ Here are more details below:
 #### Using `nano`
 ![Screenshot of nano](images/nano_screenshot.png)
 
-Using `nano` is much easier than using `vi` / `vim`. It moves and works much closer to the text editors you're used to. To perform a command listed at the bottom of the screen, hold the `Ctrl` key and the corresponding key.
+Using `nano` is much easier than using `vi` / `vim`. It moves and works much closer to the text editors you're used to. To perform a command listed at the bottom of the screen, hold the appropriate key and the corresponding key. the `^` symbol is for `Ctrl` key and `M` is for `Alt` key.
 
 #### Using `vi` / `vim`
 
