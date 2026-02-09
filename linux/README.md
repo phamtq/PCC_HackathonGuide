@@ -24,10 +24,10 @@ Feel free to skip around the guide if you and your team are already familar with
 		+ [Other commands](README.md#other-commands)
 		+ [Superuser access](README.md#superuser-access)
 		+ [Rebooting](README.md#rebooting)
-* Editing code
-	- Using `nano`
-	- Using `vi` / `vim`
-* Running code
+* [Editing code](README.md#editing-code)
+	- [Using nano](README.md#using-nano)
+	- [Using vi / vim](README.md#using-vi--vim)
+* [Running code](README.md#running-code)
 
 ## Navigating Around
 
