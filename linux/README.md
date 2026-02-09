@@ -26,7 +26,7 @@ Feel free to skip around the guide if you and your team are already familar with
 		+ [Rebooting](README.md#rebooting)
 * Editing code
 	- Using `nano`
-	- Using `vi`
+	- Using `vi` / `vim`
 * Running code
 
 ## Navigating Around
@@ -123,5 +123,45 @@ will bring up the manual for the `cp` command and all available options.
 
 USE CAUTION was using `sudo`. Because of the power of the command, it can mess things up alot and you won't be able to recover your work. 
 
+Another thing to notice is the last character of the command prompt, `$`.  This dollar sign means you're running in regular user mode. If the last character is `#`, it means you're in "superuser" mode. When you're in "superuser" mode, you don't have to type `sudo` before every command.
+
 #### Rebooting
 **reboot** - this command allows you to reboot the Raspberry Pi or other single-board computer like the Jetson Nano. You might need to use this if the robot isn't responding to instructions anymore or if you updated some system feature. Make sure all your work is saved before rebooting.
+
+### Editing Code
+Sometimes you'll need to edit the files on the Raspberry Pi or Jetson Nano. Instead of taking a lot of time copying the file to your computer, editing it, and then transfering it back, you can just do it on the device. You simply type the name of the text editor and the file you want.
+
+> $ nano my_source_code.py
+or
+> $ vim my_source_code.py
+
+Here are more details below:
+
+#### Using `nano`
+![Screenshot of nano](images/nano_screenshot.png)
+
+Using `nano` is much easier than using `vi` / `vim`. It moves and works much closer to the text editors you're used to. To perform a command listed at the bottom of the screen, hold the `Ctrl` key and the corresponding key.
+
+#### Using `vi` / `vim`
+
+![Screenshot of nano](images/vim_screenshot.png)
+
+This program is more complicated to use by allows you to work much quicker. For example you can delete the next three words after your cursor by pressing only three keys or go the the very end of your source code by just typing capital `G`. You can access the PCC Linux and Vim manual from this [link](files/pcc_linux_vim_manual.pdf). 
+
+Below are some additional, helpful, command that might not be covered in that manual.  
+
++ Delete an entire line - type `dd` (Note: any delete-type command actually works more like "cut" in other program (Ctrl/Command-X). 
++ Go to a particular line immediately - type the line number then `gg`. So to go to line 25, type `25gg`. This is very handy when the compiler/interpretor gives you errors. 
++ Show line numbers - type `:set numbers`. To undo that type, `:set nonumber`
++ Search in a document - type `/` then what you're searching for (press `ENTER` when done). Use `n` to find the next occurance, `N` to find the previous one. If it keeps highlighting what you just searched, type `:nohl` (no highlight). 
++ To save and quit - type `:wq`
++ To quite without making change - type `:q!`. You might use this if you accidently typed something but haven't saved yet.
+
+### Running code
+Much of the code you're going to write will likely in the programming language Python. So don't worry if you don't know it yet. The syntax is very similar to the C++ programs you've been writing for your assignments.
+
+To run your python code, it's easy:
+
+> $ python your_source_code.py
+
+Here's a [link](https://www.programming-idioms.org/cheatsheet/Cpp/Python) to a conversion guide for Python if you know C++.
