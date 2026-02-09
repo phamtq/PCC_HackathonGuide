@@ -49,6 +49,8 @@ Create folders, copy files, move folders, etc... like you normally would. Stayin
 
 In some situations, such as running the code that controls your robot, you'll need access to the command line. It's best to think of the command line as typing out what you want the computer to do as opposed to clicking and/or dragging things like you would normally do. 
 
+To open the terminal to access the command line, click on the 3rd icon (looks like `>_`) from the top left after the Raspberry Pi icon. 
+
 ![Screenshot of the terminal](images/terminal_screenshot.png)
 
 For example, if you wanted to move one folder (also called a directory) to another one, you might click and drag it into its destination. Using the command line, you could accomplish the same thing by typing:
@@ -121,7 +123,7 @@ will bring up the manual for the `cp` command and all available options.
 
 > $ sudo cp restricted_folder/restricted_file.txt no_restriction_folder
 
-USE CAUTION was using `sudo`. Because of the power of the command, it can mess things up alot and you won't be able to recover your work. 
+USE CAUTION when using `sudo`. Because of the power of the command, it can mess things up alot and you won't be able to recover your work. 
 
 Another thing to notice is the last character of the command prompt, `$`.  This dollar sign means you're running in regular user mode. If the last character is `#`, it means you're in "superuser" mode. When you're in "superuser" mode, you don't have to type `sudo` before every command.
 
