@@ -19,13 +19,13 @@ The "hack" in hackathon is more akin to "hacking something together" rather than
 Below, you'll find links to different parts of this guide. Everything from how to get started to learning how to use a specific device.
 
 * [Hackathon Rules & Schedule](rules_schedule/README.md)
-* [Foundational Linux Skills](linux/README.md)
+* [Brainstorming ideas](brainstorm/README.md)
 * [Tools for Collaboration](collab/README.md)
+* [Foundational Linux Skills](linux/README.md)
 * [Device Guide](devices/README.md)
 	* [mycobot 280](devices/mycobot280/README.md)
 	* [myAGV](devices/myAGV/README.md)
 	* [DOFBOT-Pi](devices/dofbot-pi/README.md)
-* [Brainstorming ideas](brainstorm/README.md)
 * [For Hackathon Organizers](staff/README.md)
 	
 # References
