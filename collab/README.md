@@ -11,7 +11,12 @@ So to increase your chances of bringing that project to fruition, you're going t
 + [Central Repository](README.md#central-repository)
 
 ## Project Management Software
-You can use everything from a simple shared TODO list like [Google Keep](https://keep.google.com), or ones specifically designed for larger projects like [Trello](https://trello.com/) and [Asana](https://asana.com). They are all free or have a trial period that will work for your 1 day project. 
+You can use everything from a simple shared TODO list like [Google Keep](https://keep.google.com), or ones specifically designed for larger projects like:
++ [Trello](https://trello.com/)
++ [Notion](https://www.notion.com/)
++ [Asana](https://asana.com). 
+
+They are all free or have a trial period that will work for your 1 day project. 
 
 If you're unfamilar with any of these tools, I suggest writing the tasks down on paper and then transfering it later to these pieces of software as you get more familar with it. 
 
