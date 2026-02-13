@@ -4,6 +4,14 @@ Ideas are a dime a dozen. Everyone has them, but not everyone has the ability to
 
 So to increase your chances of bringing that project to fruition, you're going to need some tools to organize everything and keep everyone on the same page. Many of these tools are used as part of professional projects in jobs you'll encounter when you graduate. 
 
-## Table of Contents
+# Table of Contents
 
-+ 
++ [Project Management Software](README.md#project-management-software)
++ [Communication Tools](README.md#communication-tools)
++ [Central Repository](README.md#central-repository)
+
+## Project Management Software
+
+## Communication Tools
+
+## Central Repository
