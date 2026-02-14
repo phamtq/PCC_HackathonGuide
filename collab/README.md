@@ -115,11 +115,19 @@ Add your teammates by their GitHub username and click on the green `Add to repos
 
 After that, we're going to create a copy of the project on each of your teammates computers. Click on the green `<> Code` button and then on that icon next to that web address.
 
+Finally, we going to download and run a program made by the folks at GitHub to handle the logins called GitHub CLI. Follow this [guide](https://github.com/cli/cli?tab=readme-ov-file#installation) for your specific operating system. Then run:
+
+> $ gh auth login
+
+and follow the prompts.
+
+### Cloning
+
 ![Cloning](images/github.clone_screenshot.png)
 
-Finally, go back to your `Terminal` / `Git Bash` program and go to a folder where you want to keep your project (for example, your Documents folder). Then type `git clone` followed the web address you coped this command.
+Go back to your `Terminal` / `Git Bash` program and go to a folder where you want to keep your project (for example, your Documents folder). Then type `git clone` followed the web address you coped this command.
 
-> $ git clone https://github.com/<some_user>/<project_name>.git
+> $ git clone https://github.com/some_user/project_name.git
 
 This will make an exact copy on your computer! If you want to continue working on your project on another computer after the Hackathon, just type the command again.
 
@@ -207,3 +215,6 @@ Once you've made your commit, you can "push" it to the online repository (in thi
 > $ git push
 
 You can go on the GitHub website and see that the changes have been recorded!
+
+### Helpful Tips!
+
