@@ -12,6 +12,7 @@ So to increase your chances of bringing that project to fruition, you're going t
 
 ## Project Management Software
 You can use everything from a simple shared TODO list like [Google Keep](https://keep.google.com), or ones specifically designed for larger projects like:
+
 + [Trello](https://trello.com/)
 + [Notion](https://www.notion.com/)
 + [Asana](https://asana.com). 
@@ -26,4 +27,43 @@ While you're going to be next to each other working on this project, some of you
 You can use things like [Discord](https://discord.com/), [Slack](https://slack.com/), or even starting a group chat over iMessage, Android Messages, or What'sApp.
 
 ## Central Repository
-Now comes the 
+You're going to want to a way to manage the code you and your teammates are going to write. After all, if you and a teammate are working on the same source code file, how do you ensure that both your edits are available when it comes time to run it?
+
+The solution to this issue is called a version control software system. The most popular one these days is the software known as `git`. Created by the same guy that created Linux, it a very handy tool used throughout the industry to work collaboratively on software.
+
+Here's now you get started. First, download the software to your computer. Here the various ways to do that depending on which operating system you're running.
+
+### Windows
+Download the installer for Windows [here](https://git-scm.com/install/windows) and install it. Use the defaults during the installation except for your preferred editor like `vim` or `VS Code`. When that's done you can launch it by double-click on the `Git Bash` icon on your desktop.
+
+To test to make sure it installed correctly, type:
+
+> $ git --version
+
+### macOS
+To run it on macOS, you're going to first need to install a program called `homebrew` to make the process much easier. Open the `Terminal` and go to the [official Homebrew website](https://brew.sh/). Follow the instructions on the page. Then run this command in the `Terminal`:
+
+> $ brew install git
+
+To test to make sure it installed correctly, type:
+
+> $ git --version
+
+### Linux
+Arguably the easiest method that but one that'll vary depending on which package manager you have for your particular distro. For example, to install it on Arch Linux:
+
+> $ sudo pacman -S git
+
+For Fedora:
+
+>$ sudo dnf install git
+
+For Ubuntu:
+
+> $ sudo apt install git
+
+To test to make sure it installed correctly, type:
+
+> $ git --version
+
+# Git Basics
