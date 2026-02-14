@@ -121,7 +121,89 @@ Finally, go back to your `Terminal` / `Git Bash` program and go to a folder wher
 
 > $ git clone https://github.com/<some_user>/<project_name>.git
 
-This will make an exact copy on your computer!
+This will make an exact copy on your computer! If you want to continue working on your project on another computer after the Hackathon, just type the command again.
 
 ### Git Basics
+Now that everything is set up for the project, let's show you how to use the `git` commands to get stuff done. 
 
+The general rule is that it is better to make frequent "posts" to the repo than one really big one. Why? Because smaller ones are easier to understand what changes were made and far easier to revert back to a previous version without destroying previous work. Always ask yourself, "How bad would I feel if my computer crashed right now?" That's a good way to tell if you should "post" to the repo.
+
+The general flow of working with `git` is:
+
+Edit code >> Add Files to Staging Area >> Commit those changes >> Push changes to the online repo
+
+**To Add Files...**
+
+The program, `git`, automatically tracks any changes you make to your files and allows you to puts it into a place called the "Staging Area". It's here that you can check to make sure the files you want to add to the repo are the right ones. Type this command to add them to the "Staging Area":
+
+> $ git add <names_of_file1> <names_of_file2> <names_of_file3>
+
+This adds each individual file you specify. But what if you want to add a ton of files you worked on? Type this:
+
+> $ git add .
+
+**To Get the Status of Files Added...**
+
+To see what files are going to be posted, you can run the `git status` command. Why would you want to do this? There are a lot of reasons.
+
+Let's say you accidently added a file that contains a login and password. You don't want the whole world to have access to it! Or you're not sure if you added a file that you just worked on.
+
+By running `git status` you can see if it's in the "Staging Area". Lines in green mean that it's put into the area while red ones have not. To remove a file that's green (aka been staged) type:
+
+> $ git restore --staged <filename>
+
+**Commit changes**
+
+Those "posts" that I mentioned earlier? They're official called "commits" in `git` speak. Commits allows you to post the changes to the project and included messages to anyone reading it about what you did.
+
+Commits can only occur once the files have been added to the "Staging Area". To run a commit, type:
+
+> $ git commit -m "<message>"
+
+It's generally good practice to have the message reflect the ***one*** thing you did and written in such a way that it sounds like a command (imperative form). Also keep it short and sweet. For example, let's say you added some code to make the robot turn it's arm. You could write:
+
+> $ git commit -m "I added some code to move the robot's arm so that it could do this one really cool things that I saw on a YouTube video..."
+
+But a better way would be to write it this way:
+
+> $ git commit -m "Add code to move robot's arm"
+
+One's too much to read and the other is just enough to know what occurred. If you're interested, here's a [blog post](http://chris.beams.io/posts/git-commit/) about why people do it this way. Basically it makes it so that it matches the style that `git` writes messages and makes it easier to read the log.
+
+**Checking the log**
+
+And speaking of the log, how do you check it? By typing:
+
+>$ git log
+
+This gives you something like this:
+
+```sh
+commit 5bf2808420c9927354d2bf2b836be5af228b6ccf (HEAD -> main, origin/main, origin/HEAD)
+Author: Timothy Q Pham <tim.pham4@pcc.edu>
+Date:   Fri Feb 13 20:45:41 2026 -0800
+
+    Complete Online Git Repository instructions
+
+commit 49d9da00504928e0a552d583ee83d9cfb1e83ffe
+Author: Timothy Q Pham <tim.pham4@pcc.edu>
+Date:   Fri Feb 13 19:56:39 2026 -0800
+
+    Write text for git installation instructions
+
+commit acf1c70328fad7b700f5da938319b2116b2b6b90
+Author: Timothy Q Pham <tim.pham4@pcc.edu>
+Date:   Fri Feb 13 13:59:19 2026 -0800
+
+    Update Project Management Software with more programs
+```
+
+Each commit has a special "serial number" so that if you want to revert your changes back to that one, you just specify that.
+
+**Push Your Work to GitHub**
+
+Once you've made your commit, you can "push" it to the online repository (in this case GitHub).
+
+> $ git push
+
+You can go on the GitHub website and see that the changes have been recorded!
