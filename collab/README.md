@@ -218,3 +218,4 @@ You can go on the GitHub website and see that the changes have been recorded!
 
 ### Helpful Tips!
 
+Arrange your program in such as way that teammates won't be working on the same file. This makes it easier to commit changes without running into the dredded "merge conflict". Otherwise someone on the team is going to have to manually figure out if the changes to the same file need to be resolved. It can be a big headache sometimes. 
