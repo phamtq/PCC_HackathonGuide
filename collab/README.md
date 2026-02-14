@@ -9,6 +9,10 @@ So to increase your chances of bringing that project to fruition, you're going t
 + [Project Management Software](README.md#project-management-software)
 + [Communication Tools](README.md#communication-tools)
 + [Central Repository](README.md#central-repository)
+	* [Online Git Repository](README.md#online-git-repository)
+	* [Cloning](README.md#cloning)
+	* [Git Basics](README.md#git-basics)
+	* [Helpful Tips!](README.md#helpful-tips)
 
 ## Project Management Software
 You can use everything from a simple shared TODO list like [Google Keep](https://keep.google.com), or ones specifically designed for larger projects like:
