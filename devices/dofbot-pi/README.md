@@ -7,7 +7,7 @@
   + Connect peripherals
 + Connecting to the device
 + Controlling the arms
-+ Open Computervision (OpenCV)
++ OpenCV
 
 ## Hardware Setup
 To ensure that you don't run in any problems that might interrupt your design and programming, here are a few things to check to make sure your device is set up properly.
@@ -84,8 +84,70 @@ time.sleep(1)
 
 To learn what other functions are available to you, take a look at the `Arm_Lib` library you downloaded or click [here](files/Arm_Lib.py). Part of the fun of hackathons is figuring things out so play around with the various functions.
 
-If all goes well, you can get your robot to do something simple like this:
+If all goes well, you can get your robot to do something simple like this (click to download video):
 
 [![It's alive](images/thumbnail.png)](videos/robot_moving.mp4) 
 
-## 
+## OpenCV
+The camera attached to the robot can do some stuff like object detection. Here's a [Wikipedia article](https://en.wikipedia.org/wiki/OpenCV#Applications) explaining a little bit more what OpenCV can do. You'll need the `cv2` Python library to use these features. You also might need the `numpy` library too.
+
+Here's some example code to get you started. Below is a simple program that can detect objects that are red. It will draw a box around the object even when you move it around. 
+
+```py
+import time
+import cv2
+import numpy as np
+
+def camOn():
+    # Open the camera
+    cam = cv2.VideoCapture(1)
+
+    while True:
+        ret, imageFrame = cam.read()
+
+        # Convert to HSV color space (better for color segmentation)
+        hsvFrame = cv2.cvtColor(imageFrame, cv2.COLOR_BGR2HSV)
+        
+        # Define lower and upper bounds for the red hue.
+        red_lower = np.array([136, 87, 111],  np.uint8)
+        red_upper = np.array([180, 255, 255], np.uint8)
+        red_mask = cv2.inRange(hsvFrame, red_lower, red_upper)
+
+        # Morphological Transform, Dilation 
+        # for each color and bitwise_and operator 
+        # between imageFrame and mask determines 
+        # to detect only that particular color 
+        kernel = np.ones((5, 5), "uint8") 
+        
+        # For red color 
+        red_mask = cv2.dilate(red_mask, kernel) 
+        res_red = cv2.bitwise_and(imageFrame, imageFrame, mask = red_mask)
+
+        # Creating contour to track red color 
+        contours, hierarchy = cv2.findContours(red_mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
+        for pic, contour in enumerate(contours): 
+            area = cv2.contourArea(contour) 
+            if(area > 1000): 
+                x, y, w, h = cv2.boundingRect(contour) 
+                imageFrame = cv2.rectangle(imageFrame, (x, y), (x + w, y + h), (0, 0, 255), 2) 
+                
+                cv2.putText(imageFrame, "Red Colour", (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 0, 255))
+
+        # Display the captured frame
+        cv2.imshow('Does it RED???!?', imageFrame)
+
+        # Press 'q' to exit the loop
+        if cv2.waitKey(1) == ord('q'):
+            break
+
+    # Release the capture and writer objects
+    cam.release()
+    out.release()
+    cv2.destroyAllWindows()
+
+camOn()
+```
+
+
+
