@@ -1,4 +1,7 @@
 # DOFBOT-Pi Guide
+Below if the guide for the robot. This is just a small number of the things it's capable of. Part of doing well at a hackathon is learning to experiment with things you've never worked with. The information should be used not as step-by-step instructions on what to do but a general guide on how to get started. 
+
+For more information on the device, it capabilities, and it's software, check out [it's GitHub repository](https://github.com/YahboomTechnology/dofbot-Pi).
 
 # Table of Contents
 + [Hardware Setup](README.md#hardware-setup)
