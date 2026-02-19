@@ -1,13 +1,13 @@
 # DOFBOT-Pi Guide
 
 # Table of Contents
-+ Hardware Setup
-  + Power
-  + Operating system
-  + Connect peripherals
-+ Connecting to the device
-+ Controlling the arms
-+ OpenCV
++ [Hardware Setup](README.md#hardware-setup)
+  + [Power](README.md#power)
+  + [Operating system](README.md#operating-system)
+  + [Connect peripherals](README.md#connect-peripherals)
++ [Connecting to the device](README.md#connecting-to-the-device)
++ [Controlling the arms](README.md#controlling-the-arms)
++ [OpenCV](README.md#opencv)
 
 ## Hardware Setup
 To ensure that you don't run in any problems that might interrupt your design and programming, here are a few things to check to make sure your device is set up properly.
@@ -149,5 +149,5 @@ def camOn():
 camOn()
 ```
 
-
+If the camera doesn't seem to connect when you run the program, you might need to unplug the USB connect, wait a few seconds, and then plug it back in.
 
