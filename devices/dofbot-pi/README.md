@@ -49,8 +49,6 @@ You can connect to the device through WiFi and the SSH server set up on the Rasp
 
 Once you're connected, open up a terminal program on your computer like `Terminal` or PuTTy and use SSH to connect to the Raspberry Pi. The user acccount is called `pi`, the IP address is `192.168.1.11`, and the password is `yahboom`. 
 
-WARNING: If you hear rapid clicking noise: Immediately switch off the entire station. Rotation trying to exceed limits, possible breakage.
-
 ## Controlling the arms
 There are many ways to control the robot's motors and therefore it's arms. The easiest way to do so while still using your programming skills is through the language Python. Don't worry if you don't know that language! Here's a [simple guide](https://www.programming-idioms.org/cheatsheet/Cpp/Python) to help translate the C++ you know into Python. 
 
