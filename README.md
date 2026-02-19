@@ -2,7 +2,7 @@
 
 # PCC Hackathon Guide
 
-Thank you for attending this year's Portland Community College Hackathon! If this is your first time attending a hackathon, then welcome! We hope to make the experience a memorable one where you'll learn new things, meet cool people, and most importantly have fun.
+Thank you for attending this term's Portland Community College Hackathon! If this is your first time attending a hackathon, then welcome! We hope to make the experience a memorable one where you'll learn new things, meet cool people, and most importantly have fun.
 
 If you've attendent one of our hackathons before, welcome back! Skim through the material and see if anything has changed since your last visit. 
 
