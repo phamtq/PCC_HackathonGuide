@@ -2,8 +2,8 @@
 
 # Table of Contents
 + [Hardware Setup](README.md#hardware-setup)
-  + [Power](README.md#power)
   + [Operating system](README.md#operating-system)
+  + [Power](README.md#power)
   + [Connect peripherals](README.md#connect-peripherals)
 + [Connecting to the device](README.md#connecting-to-the-device)
 + [Controlling the arms](README.md#controlling-the-arms)
@@ -11,6 +11,16 @@
 
 ## Hardware Setup
 To ensure that you don't run in any problems that might interrupt your design and programming, here are a few things to check to make sure your device is set up properly.
+
+### Operating system
+
+On Raspberry Pi, make sure the microSD card in inserted correctly (will feel like it's upside down). The image below is the correct way to load it.
+
+![Correct way to load microSD card](images/sdcard_correct.png)
+ 
+ The image below is the INCORRECT way to load the microSD card.
+ 
+![Incorrect way to load microSD card](images/sdcard_incorrect.png)
 
 ### Power
 Ensure the red connector is plugged into the bottom black board where it says `DCIN 12V` and that the power adapter (brick) is connected to the wall. 
@@ -28,16 +38,6 @@ The lights should turn on near OLED screen.
 If the OLED screen does not turn on, then the switch on the middle board (the one under the Raspberry Pi) is not switched to `ON`. 
 
 **CAUTION**: If you hear rapid clicking noise immediately switch off the entire station. The rotation of the motors are trying to exceed it's current position leading to possible breakage. Either reset the position of the arms through programming or slowly (and carefully) move them manually, both methods with no power connected.
-
-### Operating system
-
-On Raspberry Pi, make sure the microSD card in inserted correctly (will feel like it's upside down). The image below is the correct way to load it.
-
-![Correct way to load microSD card](images/sdcard_correct.png)
- 
- The image below is the INCORRECT way to load the microSD card.
- 
-![Incorrect way to load microSD card](images/sdcard_incorrect.png)
 
 ### Connect peripherals
 Plug in a micro-HDMI cable attached to a monitor and connect the keyboard and mouse. Make sure the USB cable for the camera is plugged in to the port shown below.
