@@ -26,6 +26,7 @@ Below, you'll find links to different parts of this guide. Everything from how t
 	* [mycobot 280](devices/mycobot280/README.md)
 	* [myAGV](devices/myAGV/README.md)
 	* [DOFBOT-Pi](devices/dofbot-pi/README.md)
+* [Previous Hackathons](examples/README.md)
 * [For Hackathon Organizers](staff/README.md)
 	
 # References
