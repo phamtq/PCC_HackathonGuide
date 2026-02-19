@@ -29,8 +29,12 @@ Below, you'll find links to different parts of this guide. Everything from how t
 * [For Hackathon Organizers](staff/README.md)
 	
 # References
+[mycobot 280](https://github.com/elephantrobotics/myCobot)
+[myAGV](https://github.com/elephantrobotics/myAGV-docs)
+[DOFBOT-Pi](https://github.com/YahboomTechnology/dofbot-Pi)
 
 # Special Thanks & Recognition
+*Quinn Jensen* for helping me get pictures of the devices and screenshots of the software.
 
 # Changelog
 | Date | Version | Description|
