@@ -12,7 +12,7 @@ A hackathon is a short‑term, collaborative event where people of a wide range 
 
 You'll form small teams and choose a problem or idea you're excited about, and then dive into planning, designing, coding, and testing. By the end of the event, your team presents a working prototype or a demo.
 
-The "hack" in hackathon is more akin to "hacking something together" rather than "hacking a computer system" so don't worry if you don't have any cybersecurity experience. By it's nature, you may not have a polished product by the end of our time together and that's okay! If you're excited about what you and your team creates, we encourage you to continue working on it either individually, your team, or other folks that might be interested in it.
+The "hack" in hackathon is more akin to "hacking something together" rather than "hacking a computer system" so don't worry if you don't have any cybersecurity experience. By it's nature, you may not have a polished product by the end of our time together and that's okay! If you're excited about what you and your team creates, we encourage you to continue working on it either individually, with your team, or other folks that might be interested in it.
 
 # Table of Contents
 
