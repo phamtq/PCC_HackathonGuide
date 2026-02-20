@@ -61,7 +61,7 @@ Skip down to "Git Setup" when finished.
 
 **Linux**
 
-Arguably the easiest method that but one that'll vary depending on which package manager you have for your particular distro. For example, to install it on Arch Linux:
+Arguably the easiest method but that'll vary depending on which package manager you have for your particular distro. For example, to install it on Arch Linux:
 
 > $ sudo pacman -S git
 
@@ -81,7 +81,7 @@ Skip down to "Git Setup" when finished.
 
 **Git Setup**
 
-One of the first things you're going to want to do is set up your installation with your information. Since it's easier to set it up for all your projects rather than go through this process for each of them, we going to make your settings "global":
+One of the first things you're going to want to do is set up your installation with your information. Since it's easier to set it up for all your projects rather than go through this process for each of them, you're going to make the settings "global":
 
 Type these two commands, replacing the name and email with your information:
 
@@ -91,11 +91,11 @@ $ git config --global user.email maria.perez@pcc.edu
 ```
 
 ### Online Git Repository
-You're going to want to host your project online so that your other teammates will have access to it. There are many services that do it such as [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/), and [SourceForge](https://sourceforge.net/) but for our purposes, we're going to use, arguably, the most popular one, GitHub.
+You're going to want to host your project online so that your other teammates will have access to it. There are many services that do it such as [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/), and [SourceForge](https://sourceforge.net/) but for our purposes, we're going to use one of the more popular ones, GitHub.
 
-Have everyone on your team sign up for a GitHub account if they don't already have one by clicking on the `Sign Up` button in the top right corner of the page.
+Have everyone on your team sign up for a GitHub account if they don't already have one by clicking on the `Sign Up` button on the top right corner of the page.
 
-Once that's done, designate one team member as the holder of the project like the Project Manager. Don't worry, you'll all have access to it. That person will create a new repository (*repo*) for the project. To do that click on the `Repositories` tab and then the green "New" button. 
+Once that's done, designate one team member as the holder of the project like the Project Manager. Don't worry, you'll all have access to it and make a copy when the event is done. That person will create a new repository (*repo*) for the project. To do that click on the `Repositories` tab and then the green "New" button. 
 
 ![Create a new repo](images/github.create_screenshot.png)
 
@@ -109,7 +109,7 @@ Now we're going to give your teammates access to the repo. Click on the `Setting
 
 ![Adding collaborator - Settings tab](images/github.access1_screenshot.png)
 
-Then `Collaborators` on the left hand size menu, and then on `Add people`.
+Then click on `Collaborators` on the left hand size menu, and then on `Add people`.
 
 ![Adding collaborator - Collaborators](images/github.access2_screenshot.png)
 
@@ -117,7 +117,7 @@ Add your teammates by their GitHub username and click on the green `Add to repos
 
 ![Adding collaborator - Collaborators](images/github.access3_screenshot.png)
 
-After that, we're going to create a copy of the project on each of your teammates computers. Click on the green `<> Code` button and then on that icon next to that web address.
+After that, we're going to create a copy of the project on each of your teammates computers. Click on the green `<> Code` button and then on that icon next to the web address.
 
 Finally, we going to download and run a program made by the folks at GitHub to handle the logins called GitHub CLI. Follow this [guide](https://github.com/cli/cli?tab=readme-ov-file#installation) for your specific operating system. Then run:
 
@@ -129,7 +129,7 @@ and follow the prompts.
 
 ![Cloning](images/github.clone_screenshot.png)
 
-Go back to your `Terminal` / `Git Bash` program and go to a folder where you want to keep your project (for example, your Documents folder). Then type `git clone` followed the web address you coped this command.
+Go back to your `Terminal` / `Git Bash` program and go to a folder where you want to keep your project (for example, your Documents folder). Then type `git clone` followed by the web address you copied:
 
 > $ git clone https://github.com/some_user/project_name.git
 
@@ -138,11 +138,11 @@ This will make an exact copy on your computer! If you want to continue working o
 ### Git Basics
 Now that everything is set up for the project, let's show you how to use the `git` commands to get stuff done. 
 
-The general rule is that it is better to make frequent "posts" to the repo than one really big one. Why? Because smaller ones are easier to understand what changes were made and far easier to revert back to a previous version without destroying previous work. Always ask yourself, "How bad would I feel if my computer crashed right now?" That's a good way to tell if you should "post" to the repo.
+The general rule is that it is better to make frequent "posts" to the repo than one really big one. Why? Because smaller ones are easier to understand what changes were made and far easier to revert back to a previous version without destroying other work. Always ask yourself, "How bad would I feel if my computer crashed right now?" That's a good way to tell if you should "post" to the repo.
 
 The general flow of working with `git` is:
 
-Edit code >> Add Files to Staging Area >> Commit those changes >> Push changes to the online repo
+Edit code >> Add Files to the Staging Area >> Commit those changes >> Push changes to the online repo
 
 **To Add Files...**
 
