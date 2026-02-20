@@ -148,7 +148,7 @@ Edit code >> Add Files to the Staging Area >> Commit those changes >> Push chang
 
 The program, `git`, automatically tracks any changes you make to your files and allows you to puts it into a place called the "Staging Area". It's here that you can check to make sure the files you want to add to the repo are the right ones. Type this command to add them to the "Staging Area":
 
-> $ git add <names_of_file1> <names_of_file2> <names_of_file3>
+> $ git add names_of_file1 names_of_file2 names_of_file3
 
 This adds each individual file you specify. But what if you want to add a ton of files you worked on? Type this:
 
@@ -162,7 +162,7 @@ Let's say you accidently added a file that contains a login and password. You do
 
 By running `git status` you can see if it's in the "Staging Area". Lines in green mean that it's put into the area while red ones have not. To remove a file that's green (aka been staged) type:
 
-> $ git restore --staged <filename>
+> $ git restore --staged some_file_you_want_to_remove
 
 **Commit changes**
 
@@ -170,7 +170,7 @@ Those "posts" that I mentioned earlier? They're official called "commits" in `gi
 
 Commits can only occur once the files have been added to the "Staging Area". To run a commit, type:
 
-> $ git commit -m "<message>"
+> $ git commit -m "Some descriptive message"
 
 It's generally good practice to have the message reflect the ***one*** thing you did and written in such a way that it sounds like a command (imperative form). Also keep it short and sweet. For example, let's say you added some code to make the robot turn it's arm. You could write:
 
