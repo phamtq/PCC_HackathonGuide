@@ -49,7 +49,7 @@ Create folders, copy files, move folders, etc... like you normally would. Stayin
 
 In some situations, such as running the code that controls your robot, you'll need access to the command line. It's best to think of the command line as typing out what you want the computer to do as opposed to clicking and/or dragging things like you would normally do. 
 
-To open the terminal to access the command line, click on the 3rd icon (looks like `>_`) from the top left after the Raspberry Pi icon. 
+To open the terminal to access the command line, click on the 3rd icon (looks like `>_`) from the top left after the Raspberry Pi icon.
 
 ![Screenshot of the terminal](images/terminal_screenshot.png)
 
