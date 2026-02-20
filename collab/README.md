@@ -180,7 +180,7 @@ But a better way would be to write it this way:
 
 > $ git commit -m "Add code to move robot's arm"
 
-One's too much to read and the other is just enough to know what occurred. If you're interested, here's a [blog post](http://chris.beams.io/posts/git-commit/) about why people do it this way. Basically it makes it so that it matches the style that `git` writes messages and makes it easier to read the log.
+One's too much to read and the other is just enough to know what occurred. If you need more details, you'll have access to the actual changes. Here's a [blog post](http://chris.beams.io/posts/git-commit/) about why people do it this way. Basically it makes it so that it matches the style that `git` writes messages and makes it easier to read the log.
 
 **Checking the log**
 
@@ -222,4 +222,4 @@ You can go on the GitHub website and see that the changes have been recorded!
 
 ### Helpful Tips!
 
-Arrange your program in such as way that teammates won't be working on the same file. This makes it easier to commit changes without running into the dredded "merge conflict". Otherwise someone on the team is going to have to manually figure out if the changes to the same file need to be resolved. It can be a big headache sometimes. 
+Arrange your program in such as way that teammates won't be working on the same file. This makes it easier to commit changes without running into a difficult "merge conflict". Otherwise someone on the team is going to have to manually figure out if the changes to the same file need to be resolved. It can be a big headache sometimes. 
