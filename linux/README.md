@@ -8,9 +8,9 @@ Much of the software you'll be using will be running on Linux so it's important 
 
 There's often this misconception that you need to know how to code in order to use Linux. While it's handy to know in certain situations, it's not required and many things can be accomplish through the graphical user interface ([GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)).
 
-As an added bonus, if you'll looking to transfer to Portland State University and/or taking CS161B onward at PCC, this guide will help you reinforce the information you may have learned in class and prepare you for using Linux at PSU. 
+As an added bonus, if you're looking to transfer to Portland State University (PSU) and/or taking CS161B onward at PCC, this guide will help you reinforce the information you may have learned in class and prepare you for using Linux at PSU. 
 
-Feel free to skip around the guide if you and your team are already familar with some of the operations below.
+Feel free to skip around the guide if you and your team are already familiar with some of the operations below.
 
 # Table of Contents
 
