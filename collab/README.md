@@ -1,8 +1,8 @@
 # Tools for Collaboration
 
-Ideas are a dime a dozen. Everyone has them, but not everyone has the ability to bring them to life. And you certainly won't be able to do it on your own. In addition to there not being enough robotic equipment for everyone to work by themselves, you just don't have enough time. You're going to feel tired and frustrated and that time you spend recovering can be made more useful by letting other people work on other parts of the project.
+Ideas are a dime a dozen. Everyone has them, but not everyone has the ability to bring them to life. And you certainly won't be able to do it on your own. In addition to there not being enough robotic equipment for everyone to work by themselves, you don't have enough time. You're going to feel tired and frustrated and that time you spend recovering can be made more useful by letting other people work on other parts of the project.
 
-So to increase your chances of bringing that project to fruition, you're going to need some tools to organize everything and keep everyone on the same page. Many of these tools are used as part of professional projects in jobs you'll encounter when you graduate. 
+So to increase your chances of bringing that project to fruition, you're going to need some tools to organize everything and keep everyone on the same page. Many of these tools are used as part of projects in jobs you'll encounter when you graduate. 
 
 # Table of Contents
 
@@ -21,17 +21,17 @@ You can use everything from a simple shared TODO list like [Google Keep](https:/
 + [Notion](https://www.notion.com/)
 + [Asana](https://asana.com). 
 
-They are all free or have a trial period that will work for your 1 day project. 
+They're all free or have a trial period that will work for your 1 day project. 
 
-If you're unfamilar with any of these tools, I suggest writing the tasks down on paper and then transfering it later to these pieces of software as you get more familar with it. 
+If you're unfamilar with any of these tools, I suggest writing the tasks down on paper and then transfering it to these pieces of software as you get more familar with it. 
 
 ## Communication Tools
-While you're going to be next to each other working on this project, some of you might want to work away from the group in a quiter spot. Having a way to communicate with each other will help you stay in the loop while letting you get things done. It's also a good way to transfer small files to each other like a PDF of something you found.
+While you're going to be next to each other working on this project, some of you might want to work away from the group in a quiter spot. Having a way to communicate with each other will help you stay in the loop while letting you get things done. It's also a good way to transfer small files to each other like a PDF or web link of something you found.
 
 You can use things like [Discord](https://discord.com/), [Slack](https://slack.com/), or even starting a group chat over iMessage, Android Messages, or What'sApp.
 
 ## Central Repository
-You're going to want to a way to manage the code you and your teammates are going to write. After all, if you and a teammate are working on the same source code file, how do you ensure that both your edits are available when it comes time to run it?
+You're going to want to a way to manage the code you and your teammates are writing. After all, if you and a teammate are working on the same source code file, how do you ensure that both your edits are available when it comes time to run it?
 
 The solution to this issue is called a version control software system. The most popular one these days is the software known as `git`. Created by the same guy that created Linux, it a very handy tool used throughout the industry to work collaboratively on software.
 
