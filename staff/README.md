@@ -23,4 +23,4 @@ The microSD card should be wiped and restored back to it's original configuratio
 > $ dd if=Dofbot_Pi5_20240429.img of=/dev/sdX bs=4M status=progress
 
 ## Ideas
-+ [Jetbot Workshop Ideas][files/JetBot_Workshop_ideas.docx.pdf)
++ [Jetbot Workshop Ideas](files/JetBot_Workshop_ideas.docx.pdf)
