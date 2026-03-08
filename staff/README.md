@@ -7,6 +7,7 @@ This section contains the guide for setting up, testing, and resetting the devic
 + [Resetting](README.md#resetting)
 
 ## Setup
++ [Waveshare Jetbot Setup Guide (Jetson Nano)](waveshare_JetBot_Setup_Guide.Jetson.Nano.md)
 
 ## Testing
 
