@@ -4,4 +4,4 @@ Below if the guide for the robot. This is just a small number of the things it's
 For more information on the device, it capabilities, and it's software, check out [Official Site](https://jetbot.org/master/index.html).
 
 ## Links
-+ [Dima & Jess' Guide for Jetbot Phone Controller](waveshare_JetBot_Setup_Guide.Jetson.Nano.md)
++ [Dima & Jess' Guide for Jetbot Phone Controller](Dima_and_Jess_guide.md)
