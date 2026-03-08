@@ -59,3 +59,20 @@ Key specs and features:
 + Accessories: PS2 gamepad (controller), colored blocks and printed workspace map, TF (microSD) card with system image, cooling HAT
 
 [DOFBOT-Pi Guide](dofbot-pi/README.md)
+
+## JetBot
+
+![myCobot 280](images/jetbot-ai-kit.jpg)
+
+The open-source JetBot AI robot platform gives makers, students, and enthusiasts everything they need to build creative, fun, smart AI applications. It’s powered by the small but mighty NVIDIA Jetson Nano AI computer, which supports multiple sensors and neural networks in parallel for object recognition, collision avoidance, and more. All in a variety of cool configurations that let you build something that’s uniquely you.
+
+Key specs and features:
++ Processor: NVIDIA Jetson Nano Quad‑Core ARM® Cortex‑A57 CPU (1.43 GHz)
++ GPU: 128‑core NVIDIA Maxwell GPU (CUDA‑capable)
++ Memory: 4 GB LPDDR4 @ 1600 MHz
++ Connectivity: 802.11 b/g/n Wi‑Fi (via USB dongle), Bluetooth 4.2 (via dongle), Ethernet (via USB‑to‑Ethernet adapter)
++ I/O Ports: 1× USB‑C (power), 4× USB‑A 2.0, 1× GPIO header (40‑pin), 1× CSI camera connector, 1× MIPI‑CSI for camera, 1× HDMI, 1× DisplayPort
++ Sensors: 2× DC motors with encoders, 1× ultrasonic distance sensor, optional IMU (MPU‑6050) and LIDAR add‑ons
++ Camera: 5 MP Raspberry Pi Camera V2 (CSI) – supports 1080p @ 30 fps
+
+[JetBot Guide](jetbot/README.md)
