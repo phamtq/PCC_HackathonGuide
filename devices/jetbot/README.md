@@ -5,4 +5,3 @@ For more information on the device, it capabilities, and it's software, check ou
 
 ## Links
 + [Dima & Jess' Guide](waveshare_JetBot_Setup_Guide.Jetson.Nano.md)
-+ [Waveshare Jetbot Setup Guide (Jetson Nano)](waveshare_JetBot_Setup_Guide.Jetson.Nano.md)
