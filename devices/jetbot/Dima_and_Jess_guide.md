@@ -2,8 +2,6 @@
 
 This is a recollection of what I (Dima) and Jess did for our project during the Feb 20, 2026 PCC Hackathon.
 
-[View this document's Markdown source code](index.md)
-
 ## Preface
 
 We worked on a Jetbot robot and successfully implemented my idea of making its wheels controlled remotely
