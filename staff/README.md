@@ -5,6 +5,7 @@ This section contains the guide for setting up, testing, and resetting the devic
 + [Setup](README.md#setup)
 + [Testing](README.md#testing)
 + [Resetting](README.md#resetting)
++ [Ideas](README.md#ideas)
 
 ## Setup
 + [Waveshare Jetbot Setup Guide (Jetson Nano)](waveshare_JetBot_Setup_Guide.Jetson.Nano.md)
@@ -20,3 +21,6 @@ The microSD card should be wiped and restored back to it's original configuratio
 [System Image](https://drive.google.com/drive/folders/1jbWoSmyiCACFyX2TvOGYwWqMqQHhws0l) - use something like [Belena Etcher](https://etcher.balena.io/) or plain ol' Linux `dd`:
 
 > $ dd if=Dofbot_Pi5_20240429.img of=/dev/sdX bs=4M status=progress
+
+## Ideas
++ [Jetbot Workshop Ideas][files/JetBot_Workshop_ideas.docx.pdf)
