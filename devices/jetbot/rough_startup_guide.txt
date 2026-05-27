@@ -1,4 +1,6 @@
+- This document contains notes quickly jotted down about setting up a jetbot for use. This is not meant to be used as a first-line resource, but as a supplement. 
 
+- follow the setup guide here first: https://gist.github.com/lakshmipcc/e6059e76d08cf9572e83630d9b968dc3
 
 - remove the camera cap and make sure camera is pointed dead ahead. 
    - connect laptop to the network that the jetbot is on
