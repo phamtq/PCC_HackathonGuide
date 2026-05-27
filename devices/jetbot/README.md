@@ -4,4 +4,5 @@ Below if the guide for the robot. This is just a small number of the things it's
 For more information on the device, it capabilities, and it's software, check out [Official Site](https://jetbot.org/master/index.html).
 
 ## Links
++ [Waveshare Jetbot Setup Guide](https://gist.github.com/lakshmipcc/e6059e76d08cf9572e83630d9b968dc3)
 + [Dima & Jess' Guide for Jetbot Phone Controller](Dima_and_Jess_guide.md)
