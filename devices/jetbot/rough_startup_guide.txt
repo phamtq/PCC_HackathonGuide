@@ -1,0 +1,22 @@
+
+
+- remove the camera cap and make sure camera is pointed dead ahead. 
+   - connect laptop to the network that the jetbot is on
+   - another sanity check - ipconfig and ping 192.168.1.1 (gateway) to check this laptop has an IP address with the router
+- from cmd line: 
+   - ping pccjet02 (name of the jetbot)
+   - it should respond, but if this name doesnt resolve, the real address is 192.168.1.7
+
+- open browser, go to exactly this address: “pccjet02:8888” (or “192.168.1.7:8888”)
+- first time, may prompt “do you want to encrypt?” say no.
+- when prompt for password, it is “jetbot”
+- click folder button in top left (this is the filesystem), which shows jetbot folder. go into jetbot folder. in this, double click on “working notebook”. in here are example notebooks. Use the collision_avoidance notebook to demo the robot's motion and its AI function of avoiding encountered obstacles (based on the camera collected images). Alternatively the basic_motion notebook can be used to demo just basic motion commands. 
+- in the collision_avoidance notebook, there is a live_demo.ipynb file that has to be opened by double click. 
+   - execute each code section in order (code parts are located in boxes w light gray background). To execute a code cell, select the respective box, prompting a vertical blue line on the left, and then press the play button in the top bar of the window.
+   - As you advance with the execution you'll get to the section titled bold "Create the preprocessing function". The 2nd code cell in this section (labeled [21], and preceded by the text "Now, let's start and display the camera. ..."), once executed will display the camera image and 2 sliders labeled speed and blocked.
+   - Continue with execution of the code cells till you reach the code cell labeled [24], also preceded by the text "Cool! We've created our neural network execution function, ...".  After executing this cell, scroll up in the window to see the displayed camera image and sliders. Check if the waving of your palm in front of the camera is displayed. Then put the blocked slider in the middle to have 50% collision avoidance risk (lower risk requires more computation and has slower robot response). Then start moving slowly the speed slider, allowing the robot to get moving. Keep the speed low so you can move it on the table without falling off. Create an obstacle with your palm in front of the camera and thus set the robot to move left. To stop the robot, move the slider to speed 0.
+   - The next code cell labelled [25] stops the robot, even if the speed slider gets moved. (emergency stop: power switch). Next code cell [26] stops the camera from streaming to the camera view widget.
+   - To be entirely safe (and play also with higher robot speed) put the robot on the ground and carry the ethernet cable like a leash (may need to put router on the ground as well)
+- if the collision_avoidance demo doesn't work, there's another folder called basic_motion. Open this folder and then double click on basic_motion.ipynb file.
+- run each code cell in order
+- hold the robot so it doesn't fall, and run the code section for moving
